@@ -469,6 +469,7 @@
 				66A7E25518EAFF1D00829A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66A7E25618EAFF1D00829A04 /* Build configuration list for PBXNativeTarget "APE Server ControlerTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +478,7 @@
 				66A7E25818EAFF1D00829A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
