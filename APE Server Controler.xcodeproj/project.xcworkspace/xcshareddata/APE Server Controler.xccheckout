@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D581F195-95B6-4A14-9F04-5BA2EFE6361C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>APE Server Controler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A5962B9-AF12-4C55-A027-534C1E60CE6F</key>
+		<string>https://github.com/lcharette/APE_Server-OSX-StatusApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>APE Server Controler.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A5962B9-AF12-4C55-A027-534C1E60CE6F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lcharette/APE_Server-OSX-StatusApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A5962B9-AF12-4C55-A027-534C1E60CE6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A5962B9-AF12-4C55-A027-534C1E60CE6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>APE_Server-OSX-StatusApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A7E22618EAFF1D00829A04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7E22518EAFF1D00829A04 /* Cocoa.framework */; };
+		66A7E23018EAFF1D00829A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66A7E22E18EAFF1D00829A04 /* InfoPlist.strings */; };
+		66A7E23218EAFF1D00829A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A7E23118EAFF1D00829A04 /* main.m */; };
+		66A7E23618EAFF1D00829A04 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7E23418EAFF1D00829A04 /* Credits.rtf */; };
+		66A7E23918EAFF1D00829A04 /* apeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A7E23818EAFF1D00829A04 /* apeAppDelegate.m */; };
+		66A7E23C18EAFF1D00829A04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A7E23A18EAFF1D00829A04 /* MainMenu.xib */; };
+		66A7E23E18EAFF1D00829A04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A7E23D18EAFF1D00829A04 /* Images.xcassets */; };
+		66A7E24518EAFF1D00829A04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7E24418EAFF1D00829A04 /* XCTest.framework */; };
+		66A7E24618EAFF1D00829A04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7E22518EAFF1D00829A04 /* Cocoa.framework */; };
+		66A7E24E18EAFF1D00829A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66A7E24C18EAFF1D00829A04 /* InfoPlist.strings */; };
+		66A7E25018EAFF1D00829A04 /* APE_Server_ControlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A7E24F18EAFF1D00829A04 /* APE_Server_ControlerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66A7E24718EAFF1D00829A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A7E21A18EAFF1D00829A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A7E22118EAFF1D00829A04;
+			remoteInfo = "APE Server Controler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66A7E22218EAFF1D00829A04 /* APE Server Controler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APE Server Controler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A7E22518EAFF1D00829A04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66A7E22818EAFF1D00829A04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66A7E22918EAFF1D00829A04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66A7E22A18EAFF1D00829A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66A7E22D18EAFF1D00829A04 /* APE Server Controler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APE Server Controler-Info.plist"; sourceTree = "<group>"; };
+		66A7E22F18EAFF1D00829A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66A7E23118EAFF1D00829A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66A7E23318EAFF1D00829A04 /* APE Server Controler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APE Server Controler-Prefix.pch"; sourceTree = "<group>"; };
+		66A7E23518EAFF1D00829A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66A7E23718EAFF1D00829A04 /* apeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = apeAppDelegate.h; sourceTree = "<group>"; };
+		66A7E23818EAFF1D00829A04 /* apeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = apeAppDelegate.m; sourceTree = "<group>"; };
+		66A7E23B18EAFF1D00829A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66A7E23D18EAFF1D00829A04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66A7E24318EAFF1D00829A04 /* APE Server ControlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APE Server ControlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A7E24418EAFF1D00829A04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66A7E24B18EAFF1D00829A04 /* APE Server ControlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APE Server ControlerTests-Info.plist"; sourceTree = "<group>"; };
+		66A7E24D18EAFF1D00829A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66A7E24F18EAFF1D00829A04 /* APE_Server_ControlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APE_Server_ControlerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A7E21F18EAFF1D00829A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7E22618EAFF1D00829A04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A7E24018EAFF1D00829A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7E24618EAFF1D00829A04 /* Cocoa.framework in Frameworks */,
+				66A7E24518EAFF1D00829A04 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66A7E21918EAFF1D00829A04 = {
+			isa = PBXGroup;
+			children = (
+				66A7E22B18EAFF1D00829A04 /* APE Server Controler */,
+				66A7E24918EAFF1D00829A04 /* APE Server ControlerTests */,
+				66A7E22418EAFF1D00829A04 /* Frameworks */,
+				66A7E22318EAFF1D00829A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66A7E22318EAFF1D00829A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E22218EAFF1D00829A04 /* APE Server Controler.app */,
+				66A7E24318EAFF1D00829A04 /* APE Server ControlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A7E22418EAFF1D00829A04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E22518EAFF1D00829A04 /* Cocoa.framework */,
+				66A7E24418EAFF1D00829A04 /* XCTest.framework */,
+				66A7E22718EAFF1D00829A04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66A7E22718EAFF1D00829A04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E22818EAFF1D00829A04 /* AppKit.framework */,
+				66A7E22918EAFF1D00829A04 /* CoreData.framework */,
+				66A7E22A18EAFF1D00829A04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66A7E22B18EAFF1D00829A04 /* APE Server Controler */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E23718EAFF1D00829A04 /* apeAppDelegate.h */,
+				66A7E23818EAFF1D00829A04 /* apeAppDelegate.m */,
+				66A7E23A18EAFF1D00829A04 /* MainMenu.xib */,
+				66A7E23D18EAFF1D00829A04 /* Images.xcassets */,
+				66A7E22C18EAFF1D00829A04 /* Supporting Files */,
+			);
+			path = "APE Server Controler";
+			sourceTree = "<group>";
+		};
+		66A7E22C18EAFF1D00829A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E22D18EAFF1D00829A04 /* APE Server Controler-Info.plist */,
+				66A7E22E18EAFF1D00829A04 /* InfoPlist.strings */,
+				66A7E23118EAFF1D00829A04 /* main.m */,
+				66A7E23318EAFF1D00829A04 /* APE Server Controler-Prefix.pch */,
+				66A7E23418EAFF1D00829A04 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A7E24918EAFF1D00829A04 /* APE Server ControlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E24F18EAFF1D00829A04 /* APE_Server_ControlerTests.m */,
+				66A7E24A18EAFF1D00829A04 /* Supporting Files */,
+			);
+			path = "APE Server ControlerTests";
+			sourceTree = "<group>";
+		};
+		66A7E24A18EAFF1D00829A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A7E24B18EAFF1D00829A04 /* APE Server ControlerTests-Info.plist */,
+				66A7E24C18EAFF1D00829A04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A7E22118EAFF1D00829A04 /* APE Server Controler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A7E25318EAFF1D00829A04 /* Build configuration list for PBXNativeTarget "APE Server Controler" */;
+			buildPhases = (
+				66A7E21E18EAFF1D00829A04 /* Sources */,
+				66A7E21F18EAFF1D00829A04 /* Frameworks */,
+				66A7E22018EAFF1D00829A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APE Server Controler";
+			productName = "APE Server Controler";
+			productReference = 66A7E22218EAFF1D00829A04 /* APE Server Controler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66A7E24218EAFF1D00829A04 /* APE Server ControlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A7E25618EAFF1D00829A04 /* Build configuration list for PBXNativeTarget "APE Server ControlerTests" */;
+			buildPhases = (
+				66A7E23F18EAFF1D00829A04 /* Sources */,
+				66A7E24018EAFF1D00829A04 /* Frameworks */,
+				66A7E24118EAFF1D00829A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A7E24818EAFF1D00829A04 /* PBXTargetDependency */,
+			);
+			name = "APE Server ControlerTests";
+			productName = "APE Server ControlerTests";
+			productReference = 66A7E24318EAFF1D00829A04 /* APE Server ControlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A7E21A18EAFF1D00829A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ape;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "APE-Project";
+				TargetAttributes = {
+					66A7E24218EAFF1D00829A04 = {
+						TestTargetID = 66A7E22118EAFF1D00829A04;
+					};
+				};
+			};
+			buildConfigurationList = 66A7E21D18EAFF1D00829A04 /* Build configuration list for PBXProject "APE Server Controler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A7E21918EAFF1D00829A04;
+			productRefGroup = 66A7E22318EAFF1D00829A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A7E22118EAFF1D00829A04 /* APE Server Controler */,
+				66A7E24218EAFF1D00829A04 /* APE Server ControlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A7E22018EAFF1D00829A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7E23018EAFF1D00829A04 /* InfoPlist.strings in Resources */,
+				66A7E23E18EAFF1D00829A04 /* Images.xcassets in Resources */,
+				66A7E23618EAFF1D00829A04 /* Credits.rtf in Resources */,
+				66A7E23C18EAFF1D00829A04 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A7E24118EAFF1D00829A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7E24E18EAFF1D00829A04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A7E21E18EAFF1D00829A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7E23218EAFF1D00829A04 /* main.m in Sources */,
+				66A7E23918EAFF1D00829A04 /* apeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A7E23F18EAFF1D00829A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7E25018EAFF1D00829A04 /* APE_Server_ControlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A7E24818EAFF1D00829A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A7E22118EAFF1D00829A04 /* APE Server Controler */;
+			targetProxy = 66A7E24718EAFF1D00829A04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66A7E22E18EAFF1D00829A04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A7E22F18EAFF1D00829A04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66A7E23418EAFF1D00829A04 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A7E23518EAFF1D00829A04 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66A7E23A18EAFF1D00829A04 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A7E23B18EAFF1D00829A04 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		66A7E24C18EAFF1D00829A04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A7E24D18EAFF1D00829A04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A7E25118EAFF1D00829A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66A7E25218EAFF1D00829A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66A7E25418EAFF1D00829A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APE Server Controler/APE Server Controler-Prefix.pch";
+				INFOPLIST_FILE = "APE Server Controler/APE Server Controler-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66A7E25518EAFF1D00829A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APE Server Controler/APE Server Controler-Prefix.pch";
+				INFOPLIST_FILE = "APE Server Controler/APE Server Controler-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66A7E25718EAFF1D00829A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APE Server Controler.app/Contents/MacOS/APE Server Controler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APE Server Controler/APE Server Controler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APE Server ControlerTests/APE Server ControlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66A7E25818EAFF1D00829A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APE Server Controler.app/Contents/MacOS/APE Server Controler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APE Server Controler/APE Server Controler-Prefix.pch";
+				INFOPLIST_FILE = "APE Server ControlerTests/APE Server ControlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A7E21D18EAFF1D00829A04 /* Build configuration list for PBXProject "APE Server Controler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A7E25118EAFF1D00829A04 /* Debug */,
+				66A7E25218EAFF1D00829A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A7E25318EAFF1D00829A04 /* Build configuration list for PBXNativeTarget "APE Server Controler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A7E25418EAFF1D00829A04 /* Debug */,
+				66A7E25518EAFF1D00829A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A7E25618EAFF1D00829A04 /* Build configuration list for PBXNativeTarget "APE Server ControlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A7E25718EAFF1D00829A04 /* Debug */,
+				66A7E25818EAFF1D00829A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A7E21A18EAFF1D00829A04 /* Project object */;
+}
